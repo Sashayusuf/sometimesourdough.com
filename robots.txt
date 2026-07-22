@@ -1,0 +1,6 @@
+# Sometime Sourdough — default-allow crawler policy (per ~/seo-playbook CRAWLER-POLICY.md, verified 2026-07)
+# Owner decision 2026-07-21: AI training crawlers ALLOWED.
+User-agent: *
+Allow: /
+
+Sitemap: https://sometimesourdough.com/sitemap.xml
