@@ -273,7 +273,7 @@
     (()=>{
       const transition=document.querySelector('#transition'),orderView=document.querySelector('#order-view'),orderFrame=document.querySelector('.order-frame'),orderStatus=document.querySelector('#order-status'),homeLoaf=document.querySelector('#dough'),loafStage=document.querySelector('.loaf-stage');
       const orderDestination=location.protocol==='file:'?'../order-a-counter/index.html':'order/';
-      orderFrame.src=orderDestination;
+      if(orderFrame.getAttribute('src')!==orderDestination){try{orderFrame.contentWindow.location.replace(orderDestination)}catch(e){orderFrame.src=orderDestination}}
       const rustic=homeLoaf.querySelector('.state-5').cloneNode(true);
       rustic.classList.remove('entering','smudging');rustic.classList.add('active');
       [document.querySelector('#left-art'),document.querySelector('#right-art')].forEach(target=>target.insertBefore(rustic.cloneNode(true),target.querySelector('.tear-edge')));
@@ -297,6 +297,7 @@
         if(matchMedia('(prefers-reduced-motion: reduce)').matches){location.assign(orderDestination);return}
         clear();transition.classList.remove('arrived','running');void transition.offsetWidth;matchLoafStart();homeLoaf.style.visibility='hidden';transition.classList.add('running');transition.setAttribute('aria-hidden','false');orderStatus.textContent='Order transition playing';
       }
+      addEventListener('pageshow',()=>{clear();transition.classList.remove('arrived','running');transition.setAttribute('aria-hidden','true');homeLoaf.style.removeProperty('visibility');orderStatus.textContent=''});
       orderView.addEventListener('animationend',event=>{
         if(event.animationName!=='page-open'||!transition.classList.contains('running'))return;
         arrive();
