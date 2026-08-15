@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-15T11:34:16-07:00",
+  "drops": {
+    "2026-08-21": {
+      "rustic": 6,
+      "chocolate": 2,
+      "pretzel": 2
+    },
+    "2026-08-22": {
+      "rustic": 6,
+      "chocolate": 2,
+      "pretzel": 2
+    },
+    "2026-08-23": {
+      "rustic": 6,
+      "chocolate": 2,
+      "pretzel": 2
+    }
+  }
+}
