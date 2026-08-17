@@ -20,10 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wdth,wght@0,50..150,100..900;1,50..150,100..900&amp;display=swap" rel="stylesheet">
   <script src="https://web.squarecdn.com/v1/square.js"></script>
-  <script>
-    window.CHECKOUT_CONFIG = { appId: "sq0idp-XIzZRg6FsSaGxMMiRxTbWw", locationId: "L1A9QDSWW5C15" };
-    window.API_BASE = "https://sometime-checkout.sometimesourdough.workers.dev";
-  </script>
+  <script>window.CHECKOUT_CONFIG={appId:"sq0idp-XIzZRg6FsSaGxMMiRxTbWw",locationId:"L1A9QDSWW5C15"};window.API_BASE="https://sometime-checkout.sometimesourdough.workers.dev";</script>
   <style>
     :root{--board:#E5DFD0;--ink:#5D4A36;--chalk:#EDE6D6;--caramel:#CEA370;--deep:#8A5F32;--choc:#4A2E1E;--pretzel:#A76A32;--peach:#D6B7A8;font-family:"Anybody",sans-serif;color:var(--ink);background:var(--board)}
     *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;background:var(--board);color:var(--ink);line-height:1.35}.skip{position:fixed;z-index:20;top:8px;left:8px;padding:8px 12px;background:var(--ink);color:var(--chalk);transform:translateY(-160%)}.skip:focus{transform:none}:focus-visible{outline:3px dashed var(--deep);outline-offset:4px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -82,7 +79,7 @@
           <span class="pp-label">Card</span><div id="card-container" aria-label="Card details"></div>
         </div><aside class="receipt"><h2 class="receipt-title">Receipt</h2><p class="receipt-empty">Your basket will appear here.</p><div class="receipt-body" hidden><div class="receipt-lines"></div><p class="receipt-pickup"></p><p class="receipt-delivery"><span>Delivery fee</span><span>$7.00</span></p><p class="receipt-total"><span>Grand total</span><span class="receipt-total-value"></span></p></div></aside><div class="paypanel-actions"><button class="pp-place" type="submit">Place order</button><p class="pp-fine">Payment is handled securely by Square on this page.</p><p class="payment-status" role="alert" aria-live="polite"></p></div></div></section>
       </form>
-      <section class="confirmation" hidden tabindex="-1" aria-live="polite"><h2>Your loaves are on the books!</h2><p class="confirmation-number"></p><ul class="confirmation-lines"></ul><p class="confirmation-where"></p><p class="confirmation-date"></p><p class="confirmation-total"></p><p class="confirmation-list"></p></section>
+      <section class="confirmation" hidden tabindex="-1" aria-live="polite"><h2>Your loaves are on the books!</h2><p class="confirmation-number"></p><ul class="confirmation-lines"></ul><p class="confirmation-where"></p><p class="confirmation-date"></p><p class="confirmation-total"></p><p class="confirmation-receipt">A receipt email with all these details is on its way to your inbox.</p><p class="confirmation-list"></p></section>
     </section>
   </main>
   <script>
