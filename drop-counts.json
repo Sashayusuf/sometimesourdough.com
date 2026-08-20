@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-17T10:00:12-07:00",
+  "generatedAt": "2026-08-20T07:45:34-07:00",
   "drops": {
     "2026-08-21": {
       "rustic": 6,
@@ -8,11 +8,26 @@
       "pretzel": 2
     },
     "2026-08-22": {
-      "rustic": 8,
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-08-23": {
+      "rustic": 6,
       "chocolate": 2,
       "pretzel": 2
     },
-    "2026-08-23": {
+    "2026-08-28": {
+      "rustic": 6,
+      "chocolate": 0,
+      "pretzel": 2
+    },
+    "2026-08-29": {
+      "rustic": 8,
+      "chocolate": 0,
+      "pretzel": 2
+    },
+    "2026-08-30": {
       "rustic": 6,
       "chocolate": 2,
       "pretzel": 2
