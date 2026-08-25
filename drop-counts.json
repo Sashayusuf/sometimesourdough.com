@@ -31,12 +31,30 @@
       "rustic": 6,
       "chocolate": 2,
       "pretzel": 2
+    },
+    "2026-09-04": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-09-05": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-09-06": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
     }
   },
   "skipDates": [
-    "2026-08-22"
+    "2026-08-28",
+    "2026-08-29",
+    "2026-08-30"
   ],
   "closedSlots": [
-    "lafayette"
+    "lafayette",
+    "delivered"
   ]
 }
