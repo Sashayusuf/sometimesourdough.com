@@ -1,75 +1,39 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-20T07:45:34-07:00",
+  "generatedAt": "2026-09-08T13:32:49-07:00",
   "drops": {
-    "2026-08-21": {
-      "rustic": 6,
-      "chocolate": 0,
-      "pretzel": 2
-    },
-    "2026-08-22": {
-      "rustic": 0,
-      "chocolate": 0,
-      "pretzel": 0
-    },
-    "2026-08-23": {
-      "rustic": 6,
-      "chocolate": 2,
-      "pretzel": 2
-    },
-    "2026-08-28": {
-      "rustic": 6,
-      "chocolate": 0,
-      "pretzel": 2
-    },
-    "2026-08-29": {
-      "rustic": 8,
-      "chocolate": 2,
-      "pretzel": 2
-    },
-    "2026-08-30": {
-      "rustic": 6,
-      "chocolate": 2,
-      "pretzel": 2
-    },
-    "2026-09-04": {
-      "rustic": 0,
-      "chocolate": 0,
-      "pretzel": 0
-    },
-    "2026-09-05": {
-      "rustic": 0,
-      "chocolate": 0,
-      "pretzel": 0
-    },
-    "2026-09-06": {
-      "rustic": 0,
-      "chocolate": 0,
-      "pretzel": 0
-    },
     "2026-09-11": {
-      "rustic": 0,
+      "rustic": 8,
       "chocolate": 0,
       "pretzel": 0
     },
     "2026-09-12": {
-      "rustic": 0,
+      "rustic": 8,
       "chocolate": 0,
       "pretzel": 0
     },
     "2026-09-13": {
+      "rustic": 8,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-09-18": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-09-19": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-09-20": {
       "rustic": 0,
       "chocolate": 0,
       "pretzel": 0
     }
   },
-  "skipDates": [
-    "2026-08-28",
-    "2026-08-29",
-    "2026-08-30"
-  ],
   "closedSlots": [
-    "lafayette",
     "delivered"
   ]
 }
