@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-08T13:32:49-07:00",
+  "generatedAt": "2026-09-08T13:41:35-07:00",
   "drops": {
     "2026-09-11": {
       "rustic": 8,
@@ -31,9 +31,22 @@
       "rustic": 0,
       "chocolate": 0,
       "pretzel": 0
+    },
+    "2026-11-13": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-11-14": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-11-15": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
     }
   },
-  "closedSlots": [
-    "delivered"
-  ]
+  "closedSlots": []
 }
