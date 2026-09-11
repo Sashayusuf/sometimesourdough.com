@@ -17,6 +17,11 @@
       "chocolate": 0,
       "pretzel": 0
     },
+    "2026-09-17": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
     "2026-09-18": {
       "rustic": 0,
       "chocolate": 0,
@@ -29,6 +34,21 @@
     },
     "2026-09-20": {
       "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-09-24": {
+      "rustic": 8,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-09-26": {
+      "rustic": 8,
+      "chocolate": 0,
+      "pretzel": 0
+    },
+    "2026-09-27": {
+      "rustic": 8,
       "chocolate": 0,
       "pretzel": 0
     },
@@ -46,7 +66,18 @@
       "rustic": 0,
       "chocolate": 0,
       "pretzel": 0
+    },
+    "2026-11-19": {
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
     }
   },
-  "closedSlots": []
+  "closedSlots": [],
+  "skipDates": [
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20"
+  ]
 }
