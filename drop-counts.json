@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-14T12:26:28-07:00",
+  "generatedAt": "2026-09-16T21:43:35-07:00",
   "drops": {
     "2026-09-17": {
       "rustic": 0,
@@ -23,19 +23,19 @@
       "pretzel": 0
     },
     "2026-09-24": {
-      "rustic": 8,
-      "chocolate": 2,
-      "pretzel": 2
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
     },
     "2026-09-26": {
-      "rustic": 8,
-      "chocolate": 2,
-      "pretzel": 2
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
     },
     "2026-09-27": {
-      "rustic": 8,
-      "chocolate": 2,
-      "pretzel": 2
+      "rustic": 0,
+      "chocolate": 0,
+      "pretzel": 0
     }
   },
   "skipDates": [
